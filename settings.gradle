@@ -1,0 +1,3 @@
+include ':LiveDataConverterLibrary'
+include ':app'
+rootProject.name = "LiveDataConverter"
