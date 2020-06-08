@@ -8,6 +8,11 @@ import retrofit2.Response
 import java.lang.reflect.Type
 import java.util.concurrent.atomic.AtomicBoolean
 
+/**
+ * Copied from Architecture components google sample:
+ * https://github.com/android/architecture-components-samples/blob/master/GithubBrowserSample/app/src/main/java/com/android/example/github/util/LiveDataCallAdapter.kt
+ */
+
 class LiveDataCallAdapter<R>(private val responseType: Type) :
     CallAdapter<R, LiveData<GenericApiResponse<R>>> {
 

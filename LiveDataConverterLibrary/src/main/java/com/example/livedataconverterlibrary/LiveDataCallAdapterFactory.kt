@@ -7,6 +7,11 @@ import retrofit2.Retrofit
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 
+/**
+ * Copied from Architecture components google sample:
+ * https://github.com/android/architecture-components-samples/blob/master/GithubBrowserSample/app/src/main/java/com/android/example/github/util/LiveDataCallAdapterFactory.kt
+ */
+
 class LiveDataCallAdapterFactory : Factory() {
     override fun get(
         returnType: Type,
